@@ -1,0 +1,186 @@
+Java Basics
+ -----------
+Front-end automation refers to the process of automating the testing and validation
+of the user interface (UI) and user experience (UX) aspects of a software application. 
+It involves the use of automation tools and frameworks to simulate user interactions,
+validate UI elements, and ensure the proper functioning of the front-end components.
+
+Front-end automation typically focuses on testing the functionality, behavior, and visual aspects of the application's UI. 
+It involves automating interactions such as clicking buttons, entering text into input fields, selecting options from dropdowns,
+and verifying that the expected changes occur in the UI.
+
+Back-end automation refers to the process of automating the
+testing and validation of the server-side or back-end components of a software application.
+It involves automating the testing of APIs, databases, business logic, and other server-side functionalities.
+
+
+Eclipse is a popular integrated development environment (IDE) 
+
+onc place to write,compile,get result.
+
+Open Source: Eclipse is an open-source IDE, which means it's free to use
+
+Code Assistance: Eclipse provides intelligent code completion,
+                --> real-time error checking
+				--> suggestions while you type, helping you write correct
+Eclipse
+
+How to create a  java project
+--------------
+File----new ----project
+new window
+java---java project---next
+
+new window
+
+Enter the project name(LearnJava) and give finish
+
+How to create a  Maven project
+--------------
+File----new ----project
+
+new window
+
+Maven---Maven project---next
+new window
+check the checkbox Create a simple project  click next
+Group Id ---Lowercase(organization)
+ArtifactID----project name(Start with upper case)
+version-0.0.1
+finish				
+
+What is JVM JRE JDK
+JDK (Java Development Kit):
+           The Java Development Kit is a software package that includes 
+           JRE along with development tools like 
+                 compilers
+				 debuggers
+				 utilities
+It provides everything needed for developing, testing, and running Java applications.
+
+JVM (Java Virtual Machine):It  Provide runtime environment -java bytecode executed
+                           i)   Load code
+						   ii)  verifies code
+						   iii) Executes code
+
+JRE (Java Runtime Environment):Jvm+Libraries set
+
+                               JRE implement of jvm
+							   check the format before loading into jvm
+							   
+	Class:				 
+	------
+	A class is a blueprint or a template for creating objects.
+	
+	Example:
+	--------
+	Think of a class as a blueprint for a house.
+	It specifies how the house should be built,including the number of rooms, the layout, and other details.
+	
+	syntax:
+	-------
+	public class ClassName {
+							   
+							   }
+							   
+	Object:
+	-------
+     --> Object is an Member /instance of a class.
+	 -->object has an identity, a behavior and a state.
+	 --> The state of an object is stored in fields (variables)
+	 -->methods (functions) display the object's behavior. 
+	 Objects are created at runtime from templates.
+     It is created using the new keyword followed by the class's constructor. 
+	
+	syntax:
+	--------
+	
+	ClassName object = new ClassName();
+	object.---->call the member(var/method)
+
+
+Once an object is created, you can access its properties 
+and methods using dot notation.
+
+
+DataType
+---------
+Data types are used to specify the type of data that can be stored in a variable,
+as well as the operations that can be performed on that data.
+
+Example:
+--------
+colour  -----gray   String
+model   -----suv    String
+regNum  ------122334
+noWheel -----4
+
+
+primitive datatype
+boolean true/false
+store the whole number(both positive and negative)
+------------------------
+byte----small size 8bit-- 1 2 3 4 
+short ---store 16 bit---upto 5 digit
+int---32 bit ---upto 9 digit
+long--64 bit more then 10 digit can store L l
+
+Store the decimal value
+-----------------------
+float---upto 5 digit 32 bit f F
+double---upto more  than 5 64 bit d
+
+Single Character
+----------------
+char 
+with in single quote 'K'
+
+
+Java has two categories of data types: 
+primitive data types and Non-primitive data types.
+
+Primitive data types 
+
+boolean: represents true/false values
+byte: represents a small integer value 8
+short: represents a short integer value 16
+int: represents an integer value 32
+long: represents a long integer value 64l
+float: represents a  floating-point value 32 f
+double: represents a  floating-point value 64 d
+char: represents a single character value'T'
+
+Non-primitive
+
+String: represents a sequence of characters  "Testleaf"
+Arrays: represents a collection of elements of the same type
+Classes: represents objects with properties and behaviors
+
+ ClassRoom:
+ Create the class Mobile
+ Create main method
+ int   
+ boolean
+ String 
+ char
+ float 
+ then print simple syso(ctrl+space) call all the variable
+
+
+Method signature
+--------------------
+1.access modifier---permission
+   a.public----Anyone can access(public transport)
+   b.private---Members of my class(with in same class)
+   c.protected---only can be access from same package(week3)
+   d.default----only can be access from same package
+2.return type----void
+3.methodName
+--->it should be meaningful
+--->Lowercase following uppercase
+ex:driverCar();
+4.Input argument
+It is the data needed for the method to work
+
+It can be no arguments, single or multiple arguments
+It can be primitive and non primitive and mix of both
